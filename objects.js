@@ -14,4 +14,5 @@ function removeFromPlaylist(playlist, artist) {
   delete playlist.artist
   return playlist
 }
-removeFromPlaylist(playlist, My Bloody Valentine)
+removeFromPlaylist(playlist, 'My Bloody Valentine')
+removeFromPlaylist(playlist, 'Phil Ochs')
